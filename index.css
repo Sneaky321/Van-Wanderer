@@ -51,6 +51,7 @@ header .site-logo {
 header nav {
     display: flex;
     gap: 15px;
+    
 }
 
 header nav a {
@@ -228,6 +229,7 @@ footer {
 .van-tile a {
     color: #1d3557;
 }
+
 
 /* Not Found Page */
 .not-found-container {
@@ -477,3 +479,7 @@ img.graph {
     color: #ff8c38;
     margin-right: 5px;
 }  
+.host-nav {
+    display: flex;
+    gap: 15px; 
+}
