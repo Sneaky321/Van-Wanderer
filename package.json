@@ -1,6 +1,7 @@
 {
-  "name": "P12",
-  "description": "https://v2.scrimba.com/advanced-react-c02h/~025",
+  "name": "Vanlife",
+  "description": "A step-by-step guide to help users plan and customize their van builds, complete with budgeting tools and design inspiration.",
+
   "scripts": {
     "start": "vite",
     "dev": "vite",
