@@ -67,12 +67,29 @@ header nav a:hover {
     background-color: #a8dadc;
 }
 
-header .login-link {
-    display: flex;
-    align-items: center;
-    color: #e63946;
-    font-weight: 700;
+.login-link {
+    display: inline-flex; /* Use flexbox to center content */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    border-radius: 50%; /* Make it circular */
+    background-color: #f1faee; /* Background color (light) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    cursor: pointer; /* Pointer cursor for hover effect */
 }
+
+.login-link:hover {
+    background-color: #e63946; /* Change background color on hover */
+    transform: scale(1.05); /* Slightly enlarge the icon on hover */
+}
+
+.login-icon {
+    width: 70%; /* Control the size of the icon */
+    height: auto; /* Maintain aspect ratio */
+}
+
 
 /* Main Content */
 main {
